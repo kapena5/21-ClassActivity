@@ -1,0 +1,36 @@
+.navbar {
+    border: 1px solid red; 
+    padding: 10px; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: center;
+}
+li {
+    padding: 10px;
+}
+.logo {
+    float: left;
+}
+.pages {
+    display: flex;
+    align-items: center;
+}
+.topics {
+    display: flex;
+    justify-content: space-around;
+}
+.hero {
+    border: 1px solid red;
+    text-align: center;
+}
+.cards {
+    border: 1px solid red;
+    text-align: center;
+}
+footer {
+    border: 1px solid red;
+}
