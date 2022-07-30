@@ -7,7 +7,6 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    align-content: center;
 }
 li {
     padding: 10px;
