@@ -1,29 +1,23 @@
 .navbar {
-    border: 1px solid red; 
-    padding: 10px; 
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-li {
     padding: 10px;
 }
+.navList {
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+}
 .logo {
-    float: left;
+    margin-right: auto;
 }
 .pages {
-    display: flex;
-    align-items: center;
+    padding: 5px;
+    margin-right: auto;
 }
 .topics {
     display: flex;
     justify-content: space-around;
 }
 .hero {
-    border: 1px solid red;
     text-align: center;
     height: 700px;
     max-width: 100%;
