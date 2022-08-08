@@ -1,3 +1,18 @@
+header, footer {
+    background-color: rgb(53, 182, 148);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    color: antiquewhite;
+}
+.opacity {
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+}
 .navbar {
     padding: 10px;
 }
@@ -6,26 +21,44 @@
     display: flex;
     padding: 5px;
 }
-.logo {
-    margin-right: auto;
-}
 .pages {
     padding: 5px;
-    margin-right: auto;
+    align-items: center;
+    justify-content: center;
 }
 .topics {
     display: flex;
     justify-content: space-around;
 }
+.boardDesigns {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.board {
+    margin: 20px;
+    height: 500px;
+    width: 200px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-image: url('../images/placeholderImg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.board > p {
+    padding: 10px;
+}
 .hero {
-    text-align: center;
     height: 700px;
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url("../images/surf.jpeg");
     color: white;
     display: flex;
     justify-content: center;
@@ -33,11 +66,62 @@
     align-items: center;
 }
 .cards {
-    border: 1px solid red;
-    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+.card {
+    padding: 20px 20px 40px 20px;
+}
+.surfers {
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+        "one one five"
+        "two two five"
+        "three three six"
+        "four four six"
+    ;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+.one {
+    grid-area: one;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.four {
+    grid-area: four;
+}
+.five {
+    grid-area: five;
+    flex-direction: column;
+}
+.six {
+    grid-area: six;
+    flex-direction: column;
+}
+.surferImg {
+    max-height: 300px;
+    height: auto;
+    min-width: 300px;
+    width: auto;
+    padding: 20px;
+}
+.surferCard {
+    display: flex;
+    padding: 20px;
+    align-items: center;
 }
 footer {
-    border: 1px solid red;
+    justify-content: center;
+}
+.footerLink{
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
 }
 img {
     max-width: 100%;
@@ -47,6 +131,31 @@ html, body {
     width: 100%;
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    text-align: left;
+}
 .hero p {
+    margin: auto;
     width: 400px;
 }
